@@ -4,13 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
   },
   "author": "Tejal Topre and Siddharth Raja",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "convert-excel-to-json": "^1.6.1",
+    "event-stream": "^4.0.1",
     "express": "^4.17.1",
-    "mongoose": "^5.7.13"
+    "fs": "0.0.1-security",
+    "mongoose": "^5.7.13",
+    "n-readlines": "^1.0.0",
+    "nodemon": "^2.0.1",
+    "path": "^0.12.7",
+    "read-excel-file": "^4.0.5",
+    "v8": "^0.1.0",
+    "xlsx": "^0.15.3",
+    "xlsx-stream-reader": "^1.1.0",
+    "xlsx-to-json": "^0.3.0"
   }
 }
